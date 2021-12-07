@@ -1,0 +1,578 @@
+*{
+    margin: 0;
+    pad: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:  "Open Sans", sans-serif;
+}
+
+#navbar{
+    background-color: #FFFFFF;
+    height: 70px;
+    position: fixed;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%);
+    box-shadow: 4px 4px 3px #888888;
+    z-index: 1000;
+    
+    
+}
+#innavbar{
+    
+    
+    width: 1100px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    margin-top: 10px;
+    display: flex;
+    color: white;
+    border: 3px solid black;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+#logo h2{
+    color: #ff4545;
+    padding: 0px 5px 0px 5px;
+}
+#navbarfunction{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    
+    margin-top: 6px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 630px;
+    
+}
+#navbarfunction li{
+    height: 50px;  
+}
+#navbarfunction> li:hover> a{
+    color: #ff4545; 
+}
+#navbarfunction a{
+    color: #222;
+    font-size: 18px;
+    display: inline-block;
+    transition: all 300ms;
+    
+}
+#basket{
+    height: 20px;
+    width: 25px;
+    margin-right: 20px;
+}
+#basket a{
+    height: 20px;
+    width: 25px;
+}
+#basket a img{
+    height: 20px;
+    width: 25px;
+}
+#shopbottomul{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 80px;
+    left: -470px;
+    transition: all 300ms;
+    opacity: 0;
+    visibility: hidden;
+    width: 1100px;
+    height: 300px;
+    list-style-type: none;
+}
+#shopimgcizgi {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+#shopimgcizgi img {
+    
+    width: 300px;
+    height: 250px;
+}
+#shoplayout{
+    margin-top: -30px;
+    display: flex;
+    justify-content:flex-end
+}
+#shoplayout a{
+    color: black;
+}
+#shoplayout ul{
+    list-style-type: none;
+    margin-top: -10px;
+}
+#shoplayout ul li a{
+    color: #828282 ;
+}
+#shoplayout ul li a{
+    transition: all 300ms;
+}
+#shoplayout ul h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #3a3b3c;
+}
+#shoplayoutinendul1{
+    margin-right: 60px;
+}
+#shoplayoutinendul2{
+    margin-right: 60px;
+}
+#shoplayoutinendul3{
+    margin-right: 90px;
+}
+#shop:hover a i {
+    transition: all 300ms;
+}
+#shop:hover a i {
+    transform: rotate(180deg);
+}
+#shop:hover #shopbottomul {
+    visibility: visible;
+    top: 55px;
+    opacity: 1;
+    transition: all 300ms;
+    
+}
+#shoplayout ul li a:hover  {
+    color: #ff4545  ;
+}
+#vendorsbottomul{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 80px;
+    height: 100px;
+    width: 253px;
+    list-style-type: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 300ms;
+}
+#vendorsbottomul li a{
+    color: #3a3b3c ;
+    margin-top: 20px;
+    margin-left: -30px;
+    transition: all 300ms;
+}
+#vendorsbottomul li a:hover{
+    color: #ff4545 ;
+
+}
+#vendor:hover #vendorsbottomul{
+    visibility: visible;
+    top: 55px;
+    opacity: 1;
+    transition: all 300ms;
+}
+#vendor:hover a i {
+    transition: all 300ms;
+}
+#vendor:hover a i {
+    transform: rotate(180deg);
+}
+/*  */
+#pagebottomul{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 80px;
+    height: 100px;
+    width:138px;
+    list-style-type: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 300ms;
+}
+#pagebottomul li a{
+    color: #3a3b3c ;
+    margin-top: 20px;
+    margin-left: -30px;
+    transition: all 300ms;
+}
+#pagebottomul li a:hover{
+    color: #ff4545 ;
+
+}
+#page:hover #pagebottomul{
+    visibility: visible;
+    opacity: 1;
+    top: 55px;
+    transition: all 300ms;
+}
+#page:hover a i {
+    transition: all 300ms;
+}
+#page:hover a i {
+    transform: rotate(180deg);
+}
+/* MIDDLE */
+#middlesection{
+    position: relative;
+}
+#left{
+    height: 1680px;
+    width: 300px;
+}
+#left ul{
+    padding-top: 200px;
+}
+#left ul li{
+    display: flex;
+    flex-direction: column;
+}
+#left ul{
+    margin-left: 75px;
+}
+#left ul li h2{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3a3b3c;
+
+}
+#left ul li input{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+#left ul li span{
+    color: #828282;
+}
+#leftli2{
+    margin-top:50px;
+}
+#apply ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+#apply ul li{
+    margin: 0px 10px 0px 10px;
+    color: black;
+}
+#apply{
+
+    display: inline-block;
+    position: absolute;
+    top: 210px;
+    left: 400px;
+}
+#apply ul li a{
+    background-color: #ff4545;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 20px;
+    color: white;
+}
+#apply ul li a:hover{
+    transition: all 300ms;
+    background-color:#3a3b3c ;
+}
+/************************************/
+.products{
+    height: 300px;
+    width: 900px;
+
+    position: absolute;
+    top: 280px;
+    left: 400px;
+
+}
+.products ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.products ul li div{
+    height: 300px;
+    width: 210px;
+    
+}
+.products ul li .productsimg img{
+    height: 300px;
+    width: 210px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.products ul li{
+    height: 300px;
+    width: 210px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.productsimg{
+    position: relative;
+}
+.productsimg img{
+    border:3px solid #828282;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+    visibility: hidden;
+    display: 0;
+}
+.other{
+    position: absolute;
+    top: 60px;
+    right: -50px;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+    visibility: hidden;
+    display: 0;
+}
+.basket{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart i{
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+   
+    
+}
+.other i{
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+   
+}
+.basket i{
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.firstproductsli{
+    position: relative;
+}
+.firstproductsli:hover .heart {
+    right: 5px;
+    visibility: visible;
+    display: 1;
+}
+.firstproductsli:hover .other {
+    transition: all 300ms;
+    right: 5px;
+
+}
+.firstproductsli:hover .other {
+    transition: all 800ms;
+    visibility: visible;
+    display: 1;
+}
+.heart:hover{
+    background-color: #ff4545;
+}
+.heart:hover i{
+    color: white;
+    transition: all 1000ms;
+}
+.other:hover{
+    background-color: #ff4545;
+}
+.other:hover i{
+    transition: all 1000ms;
+    color: white;
+}
+.basket:hover i{
+    transition: all 1000ms;
+    color: white;
+}
+.basket:hover{
+    background-color: #ff4545;
+}
+.products2{
+    height: 300px;
+    width: 900px;
+
+    position: absolute;
+    top: 640px;
+    left: 400px;
+
+}
+.products3{
+    height: 300px;
+    width: 900px;
+
+    position: absolute;
+    top: 1000px;
+    left: 400px;
+
+}
+.products4{
+    height: 300px;
+    width: 900px;
+
+    position: absolute;
+    top: 1360px;
+    left: 400px;
+
+}
+/*************************************/
+#next{
+    display: flex;
+    align-items: center;
+
+    height: 100px;
+}
+#next ul{
+    height: 50px;
+    width: 100%;
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#firstli{
+    margin-left: 50%;
+}
+
+#next ul li a{
+
+    background-color: white;
+    color: black;
+    border:1px solid #828282;
+    border-radius: 30px;
+   
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#next ul li a:hover{
+    background-color: #ff4545;
+    color: white;
+    border:1px solid #ff4545; ;
+}
+/***************************************/
+#last{
+    height: 400px;
+    background-color: #222222;
+}
+#last ul{
+    list-style-type: none;
+}
+#last ul ul{
+    list-style-type: none;
+}
+#firstli ul li{
+    display: flex;
+    flex-direction: column;
+}
+#firstli ul li{
+    margin: 15px 0px 15px 0px;
+}
+#firstli ul li a{
+    color: white;
+    font-size: 17px;
+}
+#secondli ul li{
+    display: flex;
+    flex-direction: column;
+}
+#secondli ul li{
+    margin: 15px 0px 15px 0px;
+}
+#secondli ul li a{
+    color: white;
+    font-size: 17px;
+}
+#threethli ul li{
+    display: flex;
+    flex-direction: column;
+}
+#threethli ul li a{
+    color: white;
+    font-size: 17px;
+}
+#threethli ul li{
+    margin: 15px 0px 15px 0px;
+}
+#fourthli ul li{
+    display: flex;
+    flex-direction: column;
+}
+#fourthli ul li{
+    margin: 15px 0px 15px 0px;
+}
+#fourthli ul li a{
+    color: white;
+    font-size: 17px;
+}
+#fourthli ul li p{
+    color: white;
+}
+#last ul h2{
+    color: white;
+    font-size: 25px;
+}
+#last ul h2{
+    border-left: 4px solid orange;
+    padding-left: 10px;
+}
+#last> ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -1300px;
+    
+}
+#last> ul {
+    padding-top: 60px;
+}
+#last ul h2{
+    margin-bottom: 20px;
+}
+/***********************************/
+#firstli ul li a:hover{
+    transition: all 300ms;
+    color: #ff4545;
+}
+#secondli ul li a:hover{
+    transition: all 300ms;
+    color: #ff4545;
+}
+#threethli ul li a:hover{
+    transition: all 300ms;
+    color: #ff4545;
+}
+#fourthli ul li a:hover{
+    transition: all 300ms;
+    color: #ff4545;
+}
